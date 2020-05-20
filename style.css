@@ -1,3 +1,18 @@
+body {
+    overflow-x: hidden;
+}
+p {
+    line-height: 1.5;
+}
+#mainNav .navbar-toggler {
+    font-size: 15px;
+    right: 0;
+    padding: 10px;
+    color: white;
+    border: 0;
+    background-color: #fed136;
+}
+
 .bg-light {
     background: transparent !important;
     transition: 0.4s ease;
@@ -5,7 +20,6 @@
 .bg-light.scrolled {
     background-color: white !important;
 }
-
 .jumbotron {
     background-image: url(menu/charles-deluvio-of0iY9BzrzI-unsplash.jpg);
     margin: auto;
@@ -13,7 +27,6 @@
     margin-top: -80 px;
     height: 750px;
     text-align: center;
-    width: 100%;
 }
 .jumbotron .logoimg {
     margin-top: 100px;
@@ -22,8 +35,7 @@
 }
 .jumbotron .brandnama {
     font-weight: bold;
-    font-size: 90px;
-    margin-top: 10px;
+    font-size: 80px;
     color: #000000;
 }
 .jumbotron p {
@@ -37,33 +49,32 @@
 }
 .about {
     margin-top: 150px;
-    /*margin-bottom: 150px;*/
 }
-.about img {
-    width: 558px;
-    height: 312px;
-}
+
 .menu {
-    margin-top: 150px;
-}
-.carousel {
-    margin-top: 10px;
+    margin-top: 120px;
 }
 .carousel-item {
     height: 400px;
 }
 .news {
-    margin-top: 150px;
+    margin-top: 85px;
 }
 .contact-us {
     background-color: #1a1d22;
-    height: 400px;
-    margin-top: 30px;
-    background-size: cover;  
+    height: auto;
+    margin-top: 150px;
+    background-size: auto;  
 }
 .contact-us .section-heading {
     color: white;
     margin-top: 20px;
+}
+.contact-us .form-group input .form-control {
+    height: auto;
+}
+.contact-us .form-group textarea.form-control {
+    height: 145px;
 }
 .col-lg-12 button {
     margin-top: 10px;
@@ -83,6 +94,7 @@
     width:100%;
 }
 .page-footer{
+    margin-top: auto;
     background-color: #1a1d22;
     font-size: normal;
     color: white;
@@ -99,4 +111,16 @@
     margin: 10px;
     width: 50px;
     height: 50px;
+}
+.location {
+    margin-top: 100px;
+}
+.location iframe {
+    margin-top: 15px;
+    border: 0   ; 
+    width: 700px; 
+    height: 300px;
+}
+.location .alamat {
+    margin-top: 20px;
 }
